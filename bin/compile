@@ -76,7 +76,7 @@ function download_and_install_ibm_db() {
   pecl install ibm_db2
   
   echo "Installing pdo ..."
-   pecl install pdo
+   pecl install pdo_mysql
    
   echo "Installing pdo_ibm ..."
    pecl install pdo_ibm
